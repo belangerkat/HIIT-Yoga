@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 241, 246);
+}
+
+input, .sign-up, .create {
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font-size: 12px;
+    color: #fcfafa;
+    text-decoration: none;
+}
+::placeholder {
+    color: white;
+}
+input, form {
+    display: flex;
+    background-color:  #1A253F;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 1%;
+    width: auto;
+    height: auto;
+    padding: 12px 10px;
+}
+input {
+    border: 2px solid rgb(32, 47, 83);
+    border-radius: 10px;
+    /* box-shadow: 0px 5px 25px rgb(42, 64, 112); */
+}
+/* width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none; */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:  #1A253F;
+    height: 90px;
+}
+
+.logo {
+    width: 89px;
+    height: auto;
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+    background-color:  #1A253F;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color:  #1A253F;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    background-color:  #1A253F;
+}
+.nav-links li a:hover {
+     color: rgb(230, 164, 230);
+     font-style: italic;
+}
+.workout-options{
+    /* position: absolute; */
+    display: flex;
+}
+
+.yoga, .hiit {
+    font-size: 6rem;
+    font-family: sans-serif;
+    letter-spacing: 0.15em;
+    color: white;
+    /* position: absolute; */
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    /* text-shadow: 2px 2px rgb(78, 77, 77); */
+    font-weight: 800;
+    
+} 
+.hiit-container {
+    background-image: url(https://lmimirror3pvr.azureedge.net/static/media/12419/f550bcca-c76d-420c-999f-d6ba1fa41b46/hiit_960x540-v2.jpg);
+    width: 718px;
+    height: 450px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.yoga-container {
+    background-image: url(https://specials-images.forbesimg.com/imageserve/1067864612/960x0.jpg?fit=scale);
+    width: 718px;
+    height: 450px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+button {
+    background: transparent;
+    font-family: sans-serif;
+
+}
+
+/* .workout-options div {
+    display: inline-block;
+    /* margin-left: px;
+    margin-top: 0px; */
+    /* align-items: center; */
+} */
+
+/* body{
+    background-color:rgba(160, 57, 57, 0.849);
+    background-image:url(https://townsquare.media/site/366/files/2015/08/Apocalypse1-630x420.jpg?w=980&q=75);
+    background-position: center;
+    background-size:cover;
+    background-blend-mode:soft-light;
+    width:600px;
+    height:300px;
+    margin:auto;
+    /* position:absolute; */
+    top:0px; bottom:0px; right:0px; left:0px;
+  }
+  */
+.section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    overflow: hidden; */
+}
+ h1.intro {
+    width: 100%;
+    top: 50%;
+    font-size: 6rem;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    position: absolute;
+    background: transparent;
+    letter-spacing: 0.15em;
+}
+video {
+    width: 100%;
+}

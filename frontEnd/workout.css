@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:  #1A253F;
+    height: 90px;
+}
+.logo {
+    width: 89px;
+    height: auto;
+    cursor: pointer;
+}
+.workout-tables {
+    margin-bottom: 3.125em;
+    text-align: center;
+}
+.workout-table {
+    border: 1px solid #ddd;
+    margin: 0 0.5em 2em;
+    padding: 0 0 3em;
+}
+.workout-table-exercises {
+    background: #e0e9e0;
+}
+.workout-table-data {
+    background: #ced8eb;
+}
+h1 {
+    background: rgb(122, 120, 120);
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+    h1 {
+        margin: 0;
+        padding-top: 1em;
+        /* font-size: 2em;
+        font-weight: normal; */
+
+    }
+    .exercise-cards, workout-ul {
+        display: inline;
+        margin: 0;
+    }
+    ul {
+        font-size: 2em;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-weight: 100;
+    }
+        
+    img {
+        height: 300px;
+        width: auto;
+        border: 4px solid rgb(138, 133, 138);
+        border-radius: 10px;
+    }

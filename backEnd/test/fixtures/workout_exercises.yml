@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  hiit_workout: one
+  exercise: one
+
+two:
+  user: two
+  hiit_workout: two
+  exercise: two
