@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function createNav(event) {
         event.preventDefault()
-        workouts.scrollIntoView()
+        workouts.scrollIntoView({
+            behavior: 'smooth'
+        })
     }
 })  
 
